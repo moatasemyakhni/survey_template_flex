@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <title>Survey Template</title>
+    
+    <link rel="stylesheet" href="styles/reset_style.css">
+    <link rel="stylesheet" href="styles/survey_style.css">
+</head>
+<body class="container">
+    <header class="header">
+        <h1 class="title">Follow Up Survey</h1>
+    </header>
+
+    <main class="survey-body">
+        <form class="survey-form" action="#" method="post">
+            <section class="">
+                <div class="product-service-date">
+                    <div>
+                        <p class="questions">When did you use our service?</p>
+                        <input type="date" name="calendar">
+                        <p class="sm-txt">Date</p>
+                    </div>
+    
+                    <div>
+                        <p class="questions">Name of product or service</p>
+                        <input type="text" name="serviceName">
+                    </div>
+                </div>
+                
+            </section>
+
+            <section>
+                <div class="radio-section">
+                    <p class="questions">Overall, how satisfied are you with the product or service?</p>
+                    <div class="option-body">
+                        <div class="left-phase">
+                            <div>
+                                <input type="radio" name="satisfied" value="A">
+                                <label for="satisfied">
+                                    Very satisfied
+                                </label>
+                            </div>
+    
+                            <div>
+                                <input type="radio" name="satisfied" value="C">
+                                <label for="satisfied">
+                                    Neutral
+                                </label>
+                            </div>
+    
+                            <div>
+                                <input type="radio" name="satisfied" value="F">
+                                <label for="satisfied">
+                                    Very unsatisfied
+                                </label>
+                            </div>
+    
+                        </div>
+                        
+                        <div class="right-phase">
+                            <div>
+                                <input type="radio" name="satisfied" value="B">
+                                <label for="satisfied">
+                                    Satisfied
+                                </label>
+                            </div>
+        
+                            <div>
+                                <input type="radio" name="satisfied" value="D">
+                                <label for="satisfied">
+                                    Unsatisfied
+                                </label>
+                            </div>
+        
+                            <div>
+                                <input type="radio" name="satisfied" value="NA">
+                                <label for="satisfied">
+                                    N/A
+                                </label>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="radio-section">
+                <p class="questions">Did our product or service meet your expectation?</p>
+
+                <div class="option-body">
+                    <div class="left-phase">
+                        <input type="radio" name="expectation" value="yes">
+                        <label for="expectation">Yes</label>
+                    </div>
+
+                    <div class="right-phase">
+                        <input type="radio" name="expectation" value="no">
+                        <label for="expectation">No</label>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="radio-section">
+                <p class="questions">Would you recommend this product or service to a friend?</p>
+
+                <div class="option-body">
+                    <div class="left-phase">
+                        <input type="radio" name="recommend" value="yes">
+                        <label for="recommend">Yes</label>
+                    </div>
+
+                    <div class="right-phase">
+                        <input type="radio" name="recommend" value="no">
+                        <label for="recommend">No</label>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="radio-section">
+                <p class="questions">What aspect of the product or service were you most satisfied by?</p>
+
+                <div class="option-body">
+                    <div class="left-phase">
+                        <div>
+                            <input type="radio" name="positiveAspect" value="quality">
+                            <label for="positiveAspect">Quality</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="positiveAspect" value="customerService">
+                            <label for="positiveAspect">Customer service</label>
+                        </div>
+                    </div>
+
+                    <div class="right-phase">
+                        <div>
+                            <input type="radio" name="positiveAspect" value="price">
+                            <label for="positiveAspect">Price</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="positiveAspect" value="installation">
+                            <label for="positiveAspect">Installation or first use experience</label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="radio-section">
+                <p class="questions">What aspect of the product or service were you most satisfied by?</p>
+
+                <div class="option-body">
+                    <div class="left-phase">
+                        <div>
+                            <input type="radio" name="negativeAspect" value="quality">
+                            <label for="negativeAspect">Quality</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="negativeAspect" value="customerService">
+                            <label for="negativeAspect">Customer service</label>
+                        </div>
+
+                    </div>
+
+                    <div class="right-phase">
+                        <div>
+                            <input type="radio" name="negativeAspect" value="price">
+                            <label for="negativeAspect">Price</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="negativeAspect" value="installation">
+                            <label for="negativeAspect">Installation or first use experience</label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="txt-area-section">
+                <div>
+                    <p class="questions">Additional comments:</p>
+                    <textarea class="optional-txt-area" name="optionalComment" placeholder="Type here..."></textarea>
+                </div>
+
+            </section>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

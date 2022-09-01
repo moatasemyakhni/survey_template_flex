@@ -1,0 +1,121 @@
+*::before, *::after, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4e5e4;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+/* Header part */
+
+.header {
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.header .title {
+    font-family: "fira code", "cascadia mono", "Arial black", "Arial";
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    color:#703b40;
+}
+
+/* Main part */
+
+.questions {
+    color:#703b40;
+    font-weight: 700;
+}
+
+.survey-body {
+    background-color: #e4e5e4;
+    padding: 1em 1.75em 1.5em 1.75em;
+}
+
+.survey-form {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+/* First section */
+.product-service-date {
+    display: flex;
+    gap: 2em;
+}
+
+.product-service-date div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5em;
+}
+
+.product-service-date div input {
+    height: 2em;
+    padding: .25em;
+}
+
+.product-service-date div input[type=date], input[type=radio] {
+    cursor: pointer;
+}
+
+.product-service-date div .sm-txt {
+    color: #59647b;
+    font-size: .75em;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+
+/* Every section that has radio buttons */
+.radio-section, .txt-area-section {
+    padding: 2em 0;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+.option-body {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+.option-body .left-phase, .option-body .right-phase {
+    width: 9em;
+}
+
+.option-body div div {
+    padding-bottom: .5em;
+}
+
+.radio-section .option-body div label {
+    color:#904d52;
+}
+
+.optional-txt-area {
+    width: 100%;
+    min-height: 10em;
+    margin-top: 1em;
+}
+
+.btn-submit {
+    display: block;
+    margin: 0 auto;
+    padding: .75em;
+    width: 10em;
+    border: none;
+    background: linear-gradient(#59595a, #868686);
+    cursor: pointer;
+    color: #ffffff;
+}
